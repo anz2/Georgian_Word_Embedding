@@ -97,5 +97,5 @@ dependencies:
   - pip:
     - fasttext==0.8.22
     - pybind11==2.2.3
-prefix: /home/anz2/anaconda3/envs/gerogian_word_embedding
+prefix: /home/<username>/anaconda3/envs/gerogian_word_embedding
 

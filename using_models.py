@@ -55,7 +55,7 @@ class WordModel:
             return self.model.get_numpy_vector(word, normalized=True)
         else:
             try:
-                np_vector = self.model.wv(word, normalized=True)
+                np_vector = self.model.wv[word]
             except KeyError:
                 np_vector = None
 
@@ -180,7 +180,7 @@ if __name__ == '__main__':
                             type=int,
                             dest='k',
                             required=False,
-                            default=None,
+                            default=10,
                             help='number of most similar words to find for a given word.')
     arg_parser.add_argument('-cmp',
                             '--compare_models',

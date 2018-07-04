@@ -3,8 +3,8 @@ import os
 import argparse
 import fnmatch
 
-# for using script in pycharm
-os.chdir('/home/anz2/PycharmProjects/Sentinel/data_preparation/')
+# for using script in pycharm debugger
+# os.chdir('/home/anz2/PycharmProjects/Sentinel/data_preparation/')
 
 # declare default variables
 georgian_letters = 'აბგდევზთიკლმნოპჟრსტუფქღყშჩცძწჭხჯჰ'
