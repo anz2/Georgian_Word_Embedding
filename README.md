@@ -71,7 +71,7 @@ jupyter notebook
 ```
 ## დატრენინგებული მოდელების გამოყენება:
 დატრენინგებული მოდელების გადმოწერა შეიძლება შემდეგი მისამართიდან:  
-`https://drive.google.com/drive/folders/1xBUpVvc4Io8lB9pQhNqriZaSstBLZCvB?usp=sharing`
+`https://drive.google.com/drive/folders/1HKn6uR8G2D-MXFZktzbltvy_qQ8x0vD9?usp=sharing`
 
 მოდელების გამოყენება ხდება `using_models.py` გაშვების შედეგად
 
